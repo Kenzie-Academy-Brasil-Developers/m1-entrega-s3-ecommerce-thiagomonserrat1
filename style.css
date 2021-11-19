@@ -76,7 +76,7 @@ h1{
     justify-content: space-evenly;
     width: 1106px;
     position: relative;
-    left: 90px;
+    left: 48px;
     bottom: 18px;
 }
 .produtos-loja-2{
@@ -84,7 +84,7 @@ h1{
     justify-content: space-evenly;
     width: 1106px;
     position: relative;
-    left: 90px;
+    left: 48px;
     bottom: 12px;
 }
 .produto{
@@ -136,7 +136,7 @@ h1{
 .caixa-de-pesquisar{
     position: relative;
     width: 330px;
-    left: 1162px;
+    left: 1118px;
     bottom: 701px;
 }
 .pesquisa{
