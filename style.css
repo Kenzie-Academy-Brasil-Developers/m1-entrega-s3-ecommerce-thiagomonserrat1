@@ -2,7 +2,7 @@
 
 html, body {
     height: 100%;
-    max-width: 500px;
+    width: 100%;
 }
 
 body {
@@ -11,10 +11,10 @@ body {
     margin: 0 auto !important;
 }
 .cabecalho{
-    background: #F5F5F5;
+    background: rgb(245, 245, 245);
     position: relative;
     height: 94px;
-    width: 1700px;
+    width: 103%;
     right: 33px;
 }
 
