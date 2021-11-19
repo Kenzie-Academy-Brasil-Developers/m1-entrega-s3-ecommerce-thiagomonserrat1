@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+html, body {
+    height: 100%;
+    max-width: 500px;
+}
+
+body {
+    max-width: 1638px;
+    padding: 0;
+    margin: 0 auto !important;
+}
+.cabecalho{
+    background: #F5F5F5;
+    position: relative;
+    height: 94px;
+    width: 1700px;
+    right: 33px;
+}
+
+.lista-menu{
+    position: absolute;
+    right: 149px;
+    top: 23px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    position: relative;
+    left: 174px;
+    top: 28px;
+    margin: 0px;
+    font-size: 30px;
+    width: 130px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.ul-menu{
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+    width: 360px;
+    top: 17px;
+}
+
+.menu-lista{
+    list-style: none;
+}
+.menu-lista:hover{
+    position: relative;
+    font-size: 40px;
+    bottom: 20px;
+}
+.menu-todos{
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+.link{
+    color: #828282;
+    text-decoration: none;
+}
+.produtos-loja-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1106px;
+    position: relative;
+    left: 90px;
+    bottom: 18px;
+}
+.produtos-loja-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1106px;
+    position: relative;
+    left: 90px;
+    bottom: 12px;
+}
+.produto{
+    position: relative;
+    background-color: #F5F5F5;
+    width: 302px;
+    height: 363px;
+    top: 43px;
+}
+.produto-4{
+    position: relative;
+    background-color: #F5F5F5;
+    width: 302px;
+    height: 363px;
+    top: 59px;
+}
+.camisetas{
+    width: 58px;
+    position: relative;
+    left: 12px;
+    color: cornsilk;
+    font-size: 12px;
+}
+.p-camisetas{
+    position: relative;
+    width: 93px;
+    height: 22px;
+    text-align: center;
+    left: 8px;
+    background-color: #2E245E;
+    color: white;
+    top: 8px;
+}
+.item{
+    left: 65px;
+    position: relative;
+    width: 162px;
+    bottom: 18px;
+    top: 6px;
+}
+.item:hover{
+    position: absolute;
+    width: 162px;
+    left: 65px;
+    top: 200px;
+    
+
+}
+.caixa-de-pesquisar{
+    position: relative;
+    width: 377px;
+    left: 1162px;
+    bottom: 701px;
+}
+.pesquisa{
+    position: relative;
+    width: 260px;
+    height: 47px;
+    border: none;
+    background-color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.botao{
+    position: relative;
+    width: 95px;
+    height: 47px;
+    border: none;
+    background-color: #6B54DE;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.botao:hover{
+    position: absolute;
+    font-size: 17px;
+    background-color: black;
+}
+.titulo-carrinho-de-compras{
+    background-color: #6B54DE;
+    position: relative;
+    width: 359px;
+    height: 50px;
+    bottom: 15px;
+    text-align: center;
+    color: white;
+}
+.titulo-carrinho{
+    position: relative;
+    top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+.carinho-de-compra{
+    position: relative;
+    top: -34px;
+    height: 319px;
+    background-color: #F5F5F5;
+    width: 359px;
+}
+.vazio{
+    text-align: center;
+    position: relative;
+    top: 116px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.add{
+    text-align: center;
+    position: relative;
+    top: 116px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.info{
+    position: relative;
+    width: 298px;
+    height: 180px;
+    background-color: white;
+    left: 2px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.descricao{
+    position: relative;
+    font-size: 25px;
+    left: 8px;
+    bottom: 8px;
+}
+.descricao-p{
+    position: relative;
+    left: 8px;
+    font-size: 14px;
+    bottom: 23px;
+    margin: 0px;
+    color: #828282;
+}
+/* .add-carrinho{
+    position: relative;
+    top: 21px; */
+    /* right: 45px; */
+    /* background: none;
+    border: none;
+    text-decoration: underline;
+    color: #828282;
+} */
+.link-carrinho{
+    position: relative;
+    top: 14px;
+    right: -8px;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: #828282;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.link-carrinho:hover{
+    content: "";
+    width: 265px;
+    height: 35px;
+    position: absolute;
+    background-color: #F5F5F5;
+    z-index: 0;
+    border: 1px transparent;
+    overflow: hidden;
+    top: 140px;
+    left: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+
+}
+.preco{
+    position: absolute;
+    left: 8px;
+    color: #2E245E;
+    font-weight: bold;
+    bottom: 44px;
+    font-size: 14px;
+}
+.link-menu{
+    display: none;
+}
+@media screen and (max-width:800px){
+    .produtos-loja-1{
+        display: grid;
+        justify-content: start;
+        left: 13%;
+    }
+    .produtos-loja-2{
+        display: grid;
+        justify-content: start;
+        left: 13%;
+    }
+    .caixa-de-pesquisar{
+        position: relative;
+        width: 377px;
+        left: 33px;
+        top: 69px;
+    }
+    .pesquisas{
+        position: relative;
+        bottom: 2276px;
+    }
+    .botao{
+        position: relative;
+        width: 110px;
+        height: 32px;
+        border: none;
+        background-color: #6B54DE;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        top: 6px;
+        right: -8px;
+    }
+    .pesquisa{
+        position: relative;
+        width: 228px;
+        height: 33px;
+        border: none;
+        background-color: #d9d5e5;
+        font-family: 'Inter', sans-serif;
+        top: 7px;
+        right: -13px;
+    }
+    h1{
+        left: 53px;
+        top: 18px;
+    }
+    .ul-menu{
+        position: relative;
+        top: 5px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        left: -1123px;
+}   .link-menu{
+        display: none;
+    }
+    }
+    
+    @media screen and (max-width:399px){
+    .ul-menu{
+        display: none;
+    }
+    .link-menu{
+        position: relative;
+        right: 1168px;
+        display: flex;
+    }
+}
+
