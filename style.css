@@ -4,6 +4,10 @@ html, body {
     height: 100%;
     width: 100%;
 }
+header{
+    position: relative;
+    width: 100%;
+}
 
 body {
     max-width: 1638px;
@@ -14,8 +18,7 @@ body {
     background: rgb(245, 245, 245);
     position: relative;
     height: 94px;
-    width: 103%;
-    right: 33px;
+    width: 100%;
 }
 
 .lista-menu{
@@ -24,6 +27,10 @@ body {
     top: 23px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+}
+.sessao-produtos{
+    position: relative;
+    width: 93%;
 }
 .menu{
     width: 100%;
@@ -128,13 +135,13 @@ h1{
 }
 .caixa-de-pesquisar{
     position: relative;
-    width: 377px;
+    width: 359px;
     left: 1162px;
     bottom: 701px;
 }
 .pesquisa{
     position: relative;
-    width: 260px;
+    width: 229px;
     height: 47px;
     border: none;
     background-color: #F5F5F5;
@@ -160,7 +167,7 @@ h1{
 .titulo-carrinho-de-compras{
     background-color: #6B54DE;
     position: relative;
-    width: 359px;
+    width: 329px;
     height: 50px;
     bottom: 15px;
     text-align: center;
@@ -179,7 +186,7 @@ h1{
     top: -34px;
     height: 319px;
     background-color: #F5F5F5;
-    width: 359px;
+    width: 329px;
 }
 .vazio{
     text-align: center;
