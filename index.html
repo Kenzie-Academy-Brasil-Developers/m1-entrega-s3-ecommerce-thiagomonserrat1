@@ -1,120 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:wght@100&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" type="imagex/png" href="net.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>NetShoes</title>
+  </head>
+  <body>
     <header>
-        <section class="cabecalho">
-            <nav class="menu">
-                    <h1>Weartake</h1>
-                <div class="lista-menu">
-                    <ul class="ul-menu">
-                        <li class="menu-lista"><a href="#" class="menu-todos">Todos</a></li>
-                        <li class="menu-lista"><a href="#" class="link">Acessórios</a></li>
-                        <li class="menu-lista"><a href="#" class="link">Calçados</a></li>
-                        <li class="menu-lista"><a href="#" class="link">Camisetas</a></li>
-                    </ul>
-                    <a href="#" class="link-menu"><img class="icon-menu" src="menu.png"></a>
-                </div>
-            </nav>
-        </section>
+      <figure class="netshoes">
+        <img src="logo.png" class="logo">
+      </figure>
+      <figcaption>Logo</figcaption>
+      <nav class="navi">
+        <figure class="navi__mobile">
+          <img src="menu.png" alt="menu" />
+        </figure>
+        <figcaption>menu</figcaption>
+        <ul>
+          <li><a href="#" title="Seção com todos os produtos">Todos</a></li>
+          <li><a href="#">Acessórios</a></li>
+          <li><a href="#">Calçados</a></li>
+          <li><a href="#">Camisetas</a></li>
+          <li><a href="#">Bolas</a></li>
+        </ul>
+      </nav>
     </header>
-    <section class="sessao-produtos">
-        <div class="produtos-loja-1">
-            
-            <div class="produto">
-                <div class="camisetas">
-                    <img src="camiseta.png" alt="Camisa de Time" class="item">
-                </div>
-                <div class="info">
-                    <p class="p-camisetas">Camisetas</p>
-                    <h2 class="descricao">Camisa do Cruzeiro</h2>
-                    <p class="descricao-p">Camisa oficial do Cruzeiro Esporte<br>Clube, de Minas Gerais, desde...</p>
-                    <label class="preco">100,00</label>
-                    <a href="#" class="link-carrinho">Adicionar ao carrinho</a>
-                </div>
+    <main class="estoque">
+      <section class="cartaoGrupo__section">
+        <div class="cartaoGrupo">
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="camiseta.png" alt="Camisa Do Cruzeiro E.C"/>
+                <figcaption>Camisa Oficial Do Cruzeiro>
+              </figure>
             </div>
-            <div class="produto">
-                <div class="camisetas">
-                    <img src="goro.png" alt="Goro" class="item">
-                </div>
-                <div class="info">
-                    <p class="p-camisetas">Goro</p>
-                    <h2 class="descricao">Goro</h2>
-                    <p class="descricao-p">Aproveite a chegada do inverno e não<br>fique sem pratir esportes por causa...</p>
-                    <label class="preco">90,00</label>
-                    <a href="#" class="link-carrinho">Adicionar ao carrinho</a>
-                </div>
+            <div class="cartao__marcador">
+              <p>Camisetas</p>
             </div>
-            <div class="produto">
-                <div class="camisetas">
-                    <img src="tenis.png" alt="Tenis Nike" class="item">
-                </div>
-                <div class="info">
-                    <p class="p-camisetas">Tênis</p>
-                    <h2 class="descricao">Tênis Air Azul Celeste</h2>
-                    <p class="descricao-p">Invista em conforto e estilo<br>Tênis Air Branco/Azul Celeste...</p>
-                    <label class="preco">1050,00</label>
-                    <a href="#" class="link-carrinho">Adicionar ao carrinho</a>
-                </div>
+            <div class="cartao__nomeItem">
+              <p><span>Camisa do Cruzeiro E.C</span></p>
             </div>
+            <div class="cartao__descricaoTexto">
+              <p>Camisa oficial do Cruzeiro Esporte Clube, do ano de 2021, série B...</p>
+            </div>
+            <div class="cartao__preco">
+              <p>R$ 125,99</p>
+            </div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="goro.png" alt="Goro de Inverno"/>
+                <figcaption> Goro De Inverno </figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador marcador__goro">
+              <p>Acessórios</p>
+            </div>
+            <div class="cartao__nomeItem">
+              <p><span>Goro de Inverno</span></p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>Não pare de praticar esport no frio<br>goro de Inverno...</p>
+            </div>
+            <div class="cartao__preco">
+              <p>R$ 89,90</p>
+            </div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button" > Adicionar ao carrinho </button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="luva.png" alt="Luva de Boxe" />
+                <figcaption> Luva de Boxe azul marinho</figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador">
+              <p>Acessórios</p>
+            </div>
+            <div class="cartao__nomeItem">
+              <p>
+                <span> Luva de Boxe</span>
+              </p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>Luva de boxes, perfeita<br>para voce e seu esporte...</p>
+            </div>
+            <div class="cartao__preco">
+              <p>R$ 255,60</p>
+            </div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button" > Adicionar ao carrinho </button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="tenis.png" alt="Tenis Nike"/>
+                <figcaption>Tenis nike azul e branco</figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador">
+              <p>Calçados</p>
+            </div>
+            <div class="cartao__nomeItem">
+              <p><span>Tenis nike</span></p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>Estilo e conforto sempre<br>nike azul e branco...</p>
+            </div>
+            <div class="cartao__preco">
+              <p>R$ 378,90</p>
+            </div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button"> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="chuteira.png" alt="chuteira puma"/>
+                <figcaption>Chuteira da Puma</figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador">
+              <p>Calçados</p>
+            </div>
+            <div class="cartao__nomeItem">
+              <p><span>Chuteira puma</span></p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>Chuteria puma azul é<br> a melhor opção para voce...</p>
+            </div>
+            <div class="cartao__preco">
+              <p>R$ 310,00</p>
+            </div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button"> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img
+                  src="bola.png"
+                  alt="Bola de Basquete"
+                />
+                <figcaption>
+                  Bola oficialde Basquete
+                </figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador">
+              <p>Bolas</p>
+            </div>
+            <div class="cartao__nomeItem">
+              <p><span>Bolas de Basquete</span></p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>Bola profissional de Basquete<br> americano, propria...</p>
+            </div>
+            <div class="cartao__preco">
+              <p>R$ 223,00</p>
+            </div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button"> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="mochila.png" alt="Mochila" />
+                <figcaption>
+                  Mochila Azul
+                </figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador">
+              <p>Acessórios</p>
+            </div>
+            <div class="cartao__nomeItem">
+              <p><span>Mochila Burton</span></p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>Otima mochila para<br>levar seus materias de esporte...</p>
+            </div>
+            <div class="cartao__preco"><p>R$ 75.95</p></div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button"> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="luvag.png" alt="Luva de Goleiro"/>
+                <figcaption>Luva azul de goleiro</figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador"><p>Acessórios</p></div>
+            <div class="cartao__nomeItem">
+              <p><span>Luva de goleiro</span></p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>Luva para goleiro de campo,<br>a melhor escolha para você...</p>
+            </div>
+            <div class="cartao__preco"><p>R$ 155,98</p></div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button"> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div class="cartao cartaoGrupo__cartao">
+            <div class="cartao__imagem">
+              <figure>
+                <img src="prancha.png" alt="Prancha de surf azul"/>
+                <figcaption> Prancha de surf azul</figcaption>
+              </figure>
+            </div>
+            <div class="cartao__marcador"><p>Acessórios</p></div>
+            <div class="cartao__nomeItem">
+              <p><span>Prancha de surf</span></p>
+            </div>
+            <div class="cartao__descricaoTexto">
+              <p>A prancha que você precisa,<br> compre já, não perca...</p>
+            </div>
+            <div class="cartao__preco"><p>R$ 89.00</p></div>
+            <div class="cartao_carrinhoCompras">
+              <button class="botao__carrinhoCompras" name="botão para adicionar produtos ao carrinho" type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
         </div>
-        <div class="produtos-loja-2">    
-            <div class="produto-4">
-                <div class="camisetas">
-                    <img src="luva.png" alt="Luva de Boxe" class="item">
-                </div>
-                <div class="info">
-                    <p class="p-camisetas">Luvas</p>
-                    <h2 class="descricao">Luva de Boxe</h2>
-                    <p class="descricao-p">Luva Pro Style Elite V2 Azul<br>material sintético premium...</p>
-                    <label class="preco">300,00</label>
-                    <a href="#" class="link-carrinho">Adicionar ao carrinho</a>                    
-                </div>
-            </div>
-            <div class="produto-4">
-                <div class="camisetas">
-                    <img src="bola.png" alt="Bola de Basquete" class="item">
-                </div>
-                <div class="info">
-                    <p class="p-camisetas">Bola</p>
-                    <h2 class="descricao">Bola de Basquete</h2>
-                    <p class="descricao-p">Pratique basquete de uma forma<br>muito mais qualificada com...</p>
-                    <label class="preco">200,00</label>
-                    <a href="#" class="link-carrinho">Adicionar ao carrinho</a>
-                </div>
-            </div>
-            <div class="produto-4">
-                <div class="camisetas">
-                    <img src="chuteira.png" alt="Chuteira de Futebol" class="item">
-                </div>
-                <div class="info">
-                    <p class="p-camisetas">Chuteira</p>
-                    <h2 class="descricao">Chuteira Puma</h2>
-                    <p class="descricao-p">Você vai ser o cara da<br>partida jogando com a nova...</p>
-                    <label class="preco">350,00</label>
-                    <a href="#" class="link-carrinho">Adicionar ao carrinho</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="caixa-de-pesquisar">
-        <div class="pesquisas">
-            <input  type="search" name="pesquisa" class="pesquisa" placeholder="    Digite aqui sua pesquisa">
-            <button name="button" class="botao">Pesquisar</button>
-        </div>
-        <div class="titulo-carrinho-de-compras">
-            <h2 class="titulo-carrinho">Carrinho de compras</h2>
-        </div>
-        <div class="carinho-de-compra">
-            <h2 class="vazio">Carrinho vázio</h2>
-            <p class="add">Adicione itens</p>
-        </div>
-    </section>
-</body>
+      </section>
+      <section class="area__pesquisaCarrinho">
+        <section class="pesquisa__area">
+          <label for="input__pesquisa"></label>
+          <input type="text" name="pesquisa" id="input__pesquisa" class="input__pesquisa" placeholder="Digite aqui sua pesquisa"/>
+          <button class="button__pesquisa">Pesquisar</button>
+        </section>
+        <section class="carrinhoCompras">
+          <div class="carrinho__titulo">
+            <p>Carrinho de Compras</p>
+          </div>
+          <div class="carrinho__corpo">
+            <p class="quantidade__produtos">Carrinho vazio</p>
+            <p class="mais__produtos">Adicione itens</p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
