@@ -65,7 +65,7 @@
   }
   
   .cartaoGrupo__cartao {
-    width: 18em;
+    width: 17em;
     height: 22rem;
     box-sizing: border-box;
     border: 2px solid var(--terciary-color);
@@ -304,7 +304,7 @@
     }
   
     .cartaoGrupo__cartao {
-      width: 19em;
+      width: 17em;
       height: 22rem;
       margin-bottom: 2em;
       margin-left: 6em;
